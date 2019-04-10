@@ -1,0 +1,4 @@
+#Thu Feb 28 19:28:02 PST 2019
+base.0=C\:\\Users\\Likhith\\Desktop\\MovieSearch\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

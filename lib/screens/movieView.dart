@@ -69,7 +69,7 @@ class MovieViewState extends State<MovieView> {
                 String watch = "Loading trailer in web view..!!";
                 bool check = true;
 
-                await http.get( 'https://api.themoviedb.org/3/movie/'+id+'/videos?api_key=8728f6a74eee380d9a09090d6c6e3c2c')
+                await http.get( 'https://api.themoviedb.org/3/movie/'+id+'/videos?api_key=KEY')
                     .then((res)=> (res.body))
                     .then(json.decode)
                     .then((map){
